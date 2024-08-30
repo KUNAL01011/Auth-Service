@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Welcome to LMS</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1rem;
+            line-height: 1.5;
+            background-color: #f4f4f7;
+            color: #333333;
+        }
+
+        a {
+            color: #0070f3;
+            text-decoration: none;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: bold;
+            color: #333333;
+            text-align: center;
+            margin: 0 0 20px;
+        }
+
+        p {
+            margin: 0 0 20px;
+            font-size: 16px;
+            line-height: 1.6;
+            color: #666666;
+        }
+
+        .email-wrapper {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .email-header {
+            background-color: #0070f3;
+            padding: 20px;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        .email-body {
+            padding: 30px;
+        }
+
+        .email-footer {
+            background-color: #f6f6f6;
+            padding: 20px;
+            text-align: center;
+            font-size: 14px;
+            color: #999999;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #0070f3;
+            color: #ffffff;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            padding: 14px 28px;
+            border-radius: 5px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #005bb5;
+        }
+
+        .contact-link {
+            color: #0070f3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="email-wrapper">
+        <div class="email-header">
+            <h1>Welcome</h1>
+        </div>
+        <div class="email-body">
+            <p>Hello <%= user.name %>,</p>
+            <p>We are excited to have you join our community at Auth Service. You are now part of a vibrant and supportive learning environment.</p>
+            <p>Feel free to explore the courses, connect with fellow learners, and make the most out of your learning journey with us.</p>
+            <p>If you have any questions or need assistance, we're here to help!</p>
+            <a href="mailto:kumaekunal18@gmail.com" class="button">Get Support</a>
+        </div>
+        <div class="email-footer">
+            <p>Thank you for choosing! If you need any help, please contact us at <a class="contact-link" href="mailto:kumaekunal18@gmail.com">kumaekunal18@gmail.com</a></p>
+        </div>
+    </div>
+</body>
+
+</html>
