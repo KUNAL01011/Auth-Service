@@ -30,7 +30,7 @@ Before you begin, ensure you have the following installed:
 3. npm run dev
 
 ## Running frontend
-1. cd frondend
+1. cd frontend
 2. npm install
 3. npm run dev
 
