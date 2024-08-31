@@ -1,3 +1,39 @@
+# Auth Service
+
+This project is an authentication service built using the MERN stack (MongoDB, Express.js, React.js, Node.js). It provides a secure way to manage user authentication, including registration, login, password reset, and more.
+
+## Features
+
+- User registration with email verification
+- User login with JWT authentication
+- Password reset functionality
+- Secure password hashing with bcrypt
+
+## Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/en/download/)
+- [MongoDB](https://www.mongodb.com/try/download/community)
+- [Git](https://git-scm.com/)
+
+## Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone git@github.com:KUNAL01011/Auth-Service.git
+
+## Running Backend
+1. cd Auth
+2. npm install
+3. npm run dev
+
+## Running frontend
+1. cd frondend
+2. npm install
+3. npm run dev
+
 # STEPS TO CREATE THIS SERVICE
 
 npm init -y
@@ -56,3 +92,7 @@ nodemailer is a node pakeage that use to send the mail
 2. install tailwind css and configure it.
 3. React-Router-Dom : for nevigation
 4. Framer-motion : Animation
+5. Tailwind css : for css
+6. zustand : for statemanagement 
+7. Normal ui design you can modify according to you
+
