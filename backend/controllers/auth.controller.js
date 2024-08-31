@@ -64,11 +64,12 @@ const verifyEmail = async (req, res) => {
   const { code } = req.body;
 
   try {
+    console.log(code);
     const user = await User.findOne({
-      verificationToken: code,
-      verificationTokenExpiresAt: { $gt: Date.now() },
-    });
-
+			verificationToken: code,
+			verificationTokenExpiresAt: { $gt: Date.now() },
+		});
+    console.log(user);
     if (!user) {
       throw new Error("Wrong Validation code");
     }
