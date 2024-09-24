@@ -2,6 +2,55 @@
 
 This project is an authentication service built using the MERN stack (MongoDB, Express.js, React.js, Node.js). It provides a secure way to manage user authentication, including registration, login, password reset, and more.
 
+# Installation
+
+### Clone the project
+
+```shell
+git clone https://github.com/KUNAL01011/Auth-Service.git
+```
+
+### Setup .env file
+
+```js
+MONGO_URL = ...
+PORT = ...
+NODE_ENV = development
+JWT_SECRET = ....
+
+
+#E-mail
+SMTP_HOST = ....
+SMTP_PORT = ...
+SMTP_SERVICE = ....
+SMTP_MAIL = ...
+SMTP_PASSWORD = ...
+RESET_URL = ....
+```
+
+### Build the app
+
+```shell
+npm run build
+```
+
+### Start the app
+
+```shell
+npm run dev
+```
+
+### ScreenShot
+
+## Register
+![Screenshot (427)](https://github.com/user-attachments/assets/7595be0a-b439-4c38-82b6-16cc4e86c01d)
+
+## Login
+![Screenshot (429)](https://github.com/user-attachments/assets/0e2b9320-35eb-4b25-a351-1cd7ffa26a09)
+
+## forgot Password
+![Screenshot (428)](https://github.com/user-attachments/assets/33b26001-52be-4a00-b636-975feb7b850e)
+
 ## Features
 
 - User registration with email verification
